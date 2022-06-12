@@ -1,0 +1,68 @@
+.bold{
+    font-style: bold;
+}
+
+input{
+    width: 100px;
+    height: 30px;
+    margin: 10px,10px,10px,10px;
+}
+
+div{
+    background-color: #EEE;
+    padding-top: 20px;
+    padding-left: 30px;
+    
+}
+
+table {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+    text-align: center;
+	color: gray;
+	border: 1px; 
+	text-align: center;
+	background-color: #EEE;
+}
+
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    color: gray;
+    border: 0px solid rgb(0, 255, 200); 
+    text-align: left;
+    background-color: #EEE;
+}
+
+.gris{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: #aaa;
+}
+
+
+tr {
+    display: none;
+}
+
+
+button{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    width: 70px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 0;
+    border-color: gray;
+    border: 1px;
+    margin: 15px;
+}
+
+.tablatitulo{
+    color: #000;
+    text-align: center;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA IMC - Clase 10 - LPPA</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+  
+<div id="divcalculadora">
+<p>Para calcular su índice de masa corporal, ingrese su Estatura y su Peso.</p>
+<p class="gris">Sistema métrico.</p>
+
+
+      <p>ESTATURA</p>
+      <p class="gris">en centímetros.</p>
+      <input id="txtEstatura" type="text"></p>
+      <p>PESO</p>
+      <p class="gris">en kilogramos.</p>
+      <p></p><input id="txtPeso" type="text"></p>
+      <p><button id="btnCalcular" onclick="clickBtnCalcular()">Calcular</button></p>
+      <p class="gris">Reusltado: <input class="camporesultado" id="resultado" type="text"></p>  
+
+        
+        
+<div>
+ 
+    <table width="600" cellpadding="5" cellspacing="1">
+      <tr id="tr1" class="tablatitulo">
+    <td width="300" height="50" align="center" valign="middle">Composición Corporal</td>
+    <td width="300" height="50" align="center" valign="middle">Índice de masa corporal</td>
+  </tr>
+  <tr id="tr2">
+    <td width="300" align="center" valign="middle">Peso inferior al normal</td>
+    <td width="300" align="center" valign="middle">Menos de 18.5</td>
+  </tr>
+  <tr id="tr3">
+    <td width="300" align="center" valign="middle">Normal</td>
+    <td width="300" align="center" valign="middle">18.5 - 24.9</td>
+  </tr>
+  <tr id="tr4" >
+    <td width="300" align="center" valign="middle">Peso superior al normal</td>
+    <td width="300" align="center" valign="middle">25.0 - 29.9</td>
+  </tr>
+  <tr id="tr5" >
+    <td width="300" align="center" valign="middle">Obesidad</td>
+    <td width="300" align="center" valign="middle">Más de 30.0</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</div>
+</body>
+</html>
